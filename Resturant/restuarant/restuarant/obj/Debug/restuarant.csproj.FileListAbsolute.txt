@@ -1,0 +1,70 @@
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\ApplicationInsights.config
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\csc.exe
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\vbc.exe
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\VBCSCompiler.exe
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\restuarant.dll.config
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\restuarant.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\restuarant.pdb
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.Web.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.Web.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\bin\Newtonsoft.Json.xml
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\obj\Debug\restuarant.dll
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\obj\Debug\restuarant.pdb
+C:\Users\hp\Desktop\jambu\restuarant\restuarant\obj\Debug\restuarant.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\ApplicationInsights.config
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\csc.exe
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\vbc.exe
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\VBCSCompiler.exe
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\restuarant.dll.config
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\restuarant.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\restuarant.pdb
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.Web.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.Web.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\bin\Newtonsoft.Json.xml
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\obj\Debug\restuarant.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\obj\Debug\restuarant.dll
+C:\Users\hp\Desktop\CHEMUTAI MERCY\restuarant\restuarant\obj\Debug\restuarant.pdb
