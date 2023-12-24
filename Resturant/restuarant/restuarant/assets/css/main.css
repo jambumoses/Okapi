@@ -1,0 +1,51 @@
+@import url("variables.css");
+@import url("header.css");
+
+/* components */
+@import url("banner.css");
+@import url("categories.css");
+@import url("footer.css");
+@import url("filter.css");
+@import url("brands.css");
+@import url("shop.css");
+@import url("menu.css");
+@import url("contact.css");
+@import url("about.css");
+@import url("login.css");
+@import url("details.css");
+@import url("signup.css");
+@import url("dashboard.css");
+
+/* resetting the web pages */
+
+* {
+  font-size: 15px;
+  font-family: poppins, sans-serif;
+}
+
+html {
+  display: border-box;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  display: border-box;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  overflow-x: hidden;
+}
+
+input,
+button,
+text {
+  outline: none !important;
+}
+
+main {
+  padding-top: 60px;
+}

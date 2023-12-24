@@ -1,0 +1,77 @@
+footer {
+    background-color: var(--smoke);
+    padding: 0 5%;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: transparent;
+    margin: 15px;
+}
+
+.footer-container h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+.footer-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-options span{
+    margin: 5px 0px;
+}
+
+.footer-options span i{
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.footer-options span a{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: var(--black71);
+    font-size: 12px;
+}
+
+.footer-options span a:hover{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.footer-note{
+    background-color: lightgray;
+}
+
+.footer-note,
+.footer-note a {
+    text-align: center;
+    padding: 15px 0px;
+    text-transform: capitalize;
+    font-size: 10px !important;
+    font-family: poppins, sans-serif;
+    letter-spacing: 2px;
+    color: var(--black71);
+}
+
+.footer-note a {
+    text-transform: none !important;
+    text-transform: capitalize;
+}
+
+.footer-note a::first-letter {
+    text-transform: uppercase !important;
+}

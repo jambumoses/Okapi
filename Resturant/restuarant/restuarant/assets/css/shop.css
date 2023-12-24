@@ -1,0 +1,97 @@
+.shop-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.048);
+  margin: 5% 5%;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+.shop-item {
+  position: relative;
+  width: 20%;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.shop-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  filter: drop-shadow(0px 10px 10px black);
+  z-index: 1;
+}
+
+.shop-title {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 10;
+}
+
+.shop-title small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 20px;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.shop-description {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.299);
+  font-family: sans-serif;
+  padding: 10px 10px;
+  color: white;
+  height: 70px;
+  width: 150px;
+  border-radius: 5%;
+  bottom: 10px;
+  left: 10px;
+  font-size: 11px;
+  text-transform: initial;
+  z-index: 10;
+}
+
+.shop-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: orange;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  font-size: 11px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  z-index: 10;
+}
+
+.shop-item:hover .shop-description {
+  display: flex;
+}

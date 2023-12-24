@@ -1,0 +1,40 @@
+.about-section {
+  position: fixed;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.765);
+  width: 100vw;
+  height: 80vh;
+  top: 50px;
+  left: 0px;
+  z-index: 100;
+}
+
+.about-content h4 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 2%;
+  font-size: 13px;
+  font-family: poppins, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  padding: 2% 50px;
+  color: rgb(71, 71, 71);
+}
