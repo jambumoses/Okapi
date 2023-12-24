@@ -1,0 +1,274 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="restuarant.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="mercy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CJ's</title>
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/fonts/mainFont.css" />
+
+    <!-- templates -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- browser icons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-4.0.0-dist/css/bootstrap.min.css"
+    />
+
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+      
+    <header>
+      <nav>
+        <div class="nav-logo">
+          Cafe J'S
+          <!-- <img src="" alt=""> -->
+        </div>
+        <div class="nav-container">
+          <span><a href="Default.aspx" class="active">home</a></span> .
+          <span><a style="cursor: pointer; font-size: 12px; font-family: poppins, sans-serif; color: rgb(71,71,71);" onclick="showDropNav('menu-container','menu')">menu</a></span> .
+          <span><a style="cursor: pointer; font-size: 12px; font-family: poppins, sans-serif; color: rgb(71,71,71);" onclick="showDropNav('about-container','about')">about</a></span> .
+          <span><a style="cursor: pointer; font-size: 12px; font-family: poppins, sans-serif; color: rgb(71,71,71);" onclick="showDropNav('contact-container','contact')">contact us</a></span>
+        </div>
+
+        <div class="login-and-acrt-section">
+          <a href="cart.aspx"><i class="fa fa-shopping-cart"></i> <span style="color: white;">10</span></a>
+          <a href="login.aspx" class="btn-login">login</a>
+          <a href="signup.aspx" class="btn-login">signup</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- menu section -->
+    <section id="menu-container" class="menu-section">
+      <div class="menu">
+        <h2 class="menu-heading">menu</h2>
+        <section class="menu-listing">
+          <div class="menu-listing-item bordering">
+            <h2>foods</h2>
+            <ul>
+            <asp:Repeater ID="foodsRepeater" runat="server">
+              <ItemTemplate>
+              <li>
+                <a href="categories.aspx?category=<%# Eval("title") %>"><span class="menu-listing-item-title"><%# Eval("title") %></span> <span class="menu-listing-item-img"><img src="assets/imgs/categories/<%# Eval("img") %>" alt="" /></span></a>
+              </li>
+              </ItemTemplate>
+            </asp:Repeater>
+            </ul>
+          </div>
+
+          <div class="menu-listing-item bordering">
+            <h2>drinks</h2>
+            <ul>
+              <asp:Repeater ID="drinksRepeater" runat="server">
+                 <ItemTemplate>
+                    <li>
+                        <a href="categories.aspx?category=<%# Eval("title") %>"><span class="menu-listing-item-title"><%# Eval("title") %></span> <span class="menu-listing-item-img"><img src="assets/imgs/categories/<%# Eval("img") %>" alt="" /></span></a>
+                    </li>
+                 </ItemTemplate>
+              </asp:Repeater>
+            </ul>
+          </div>
+          <div class="menu-listing-item">
+            <h2>ice creams</h2>
+            <ul>
+            <asp:Repeater runat="server" ID="icecreamRepeater">
+                <ItemTemplate>
+                    <li>
+                        <a href="categories.aspx?category=<%# Eval("title") %>"><span class="menu-listing-item-title"><%# Eval("title") %></span> <span class="menu-listing-item-img"><img src="assets/imgs/categories/<%# Eval("img") %>" alt="" /></span></a>
+                    </li>
+                </ItemTemplate>
+            </asp:Repeater>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about-container" class="about-section">
+      <section class="about-content">
+        <h4>About us</h4>
+        welcome to CJ'S, is a full-service, quick-casual restaurant specialized in delivering a relaxed and memorable dining experience.You're welcome to drop by or call to make your order and we'll be more than happy to serve you and make you feel more at home. Whatever your taste, it’s well catered for. We value you. That’s why you’ll always be served with excellence by each member of our highly skilled team members. Eager to serve you, our experienced wait staff greet you at the door and lead you to the table of your choice in the well thought out seating arrangement. The rich aroma of freshly ground coffee is the handiwork of our skilled baristas, adept in latte art. This ensures you get a freshly prepared cup of coffee as the beans are roasted on site. To ensure you always enjoy a special dining experience, we constantly improve our signature world-class innovations. We’re growing and may soon open a location closer to you. We look forward to serving you, You’re more than welcome to Find us here. 
+      </section>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact-container" class="contact-section">
+      <section class="contact-content">
+        <div class="footer-container contact-info">
+          <h3>contact us</h3>
+          <div class="footer-options-details">
+            <div class="footer-options">
+              <span
+                ><i class="fa fa-phone"></i> <a href="#">+256754397814</a></span
+              >
+              <span
+                ><i class="fa fa-envelope"></i>
+
+                <a href="#">chemercyiu@gmail.com</a></span
+              >
+              <span
+                ><i class="fa fa-map"></i>
+                <a href="#">plot 1234 kampala road</a></span
+              >
+              <span
+                ><i class="fa fa-shield"></i>
+                <a href="#">terms & conditions</a></span
+              >
+            </div>
+            <div class="footer-options-mapping">
+              <iframe src="#" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--Main-->   
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+   
+
+    
+    <!-- brands -->
+    <div class="brand-partners">our Partners</div>
+    <section class="brands-section">
+      <div>
+        <img src="assets/imgs/brands/jumia-removebg-preview.png" alt="" />
+      </div>
+      <div>
+        <img src="assets/imgs/brands/kfc-removebg-preview.png" alt="" />
+      </div>
+      <div>
+        <img
+          src="assets/imgs/brands/chickentonight-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img src="assets/imgs/brands/javas-removebg-preview.png" alt="" />
+      </div>
+    </section>
+
+    <footer>
+      <section class="footer-section" id="footer">
+        <div class="footer-container">
+          <h3>menu</h3>
+          <div class="footer-options">
+            <span><i class="fa fa-home"></i> <a href="">burgers</a></span>
+            <span><i class="fa fa-piza"></i> <a href="">pizza's</a></span>
+            <span><i class="fa fa-shop"></i> <a href="">chips</a></span>
+            <span
+              ><i class="fa fa-info-circle"></i>
+              <a href="">see more ...</a></span
+            >
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h3>navigation</h3>
+          <div class="footer-options">
+            <span><i class="fa fa-home"></i> <a href="">home</a></span>
+            <span><i class="fa fa-home"></i> <a href="">menu</a></span>
+            <span><i class="fa fa-shop"></i> <a href="">about us</a></span>
+            <span><i class="fa fa-phone"></i> <a href="">contact us</a></span>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h3>categories</h3>
+          <div class="footer-options">
+            <span><i class="fa fa-beer"></i> <a href="">drinks</a></span>
+            <span><i class="fa fa-beer"></i> <a href="">milk shakes</a></span>
+            <span><i class="fa fa-beer"></i> <a href="">snacks</a></span>
+            <span
+              ><i class="fa fa-info-circle"></i>
+              <a href="">see more ...</a></span
+            >
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h3>contact us</h3>
+          <div class="footer-options">
+            <span
+              ><i class="fa fa-phone"></i> <a href="">+256754397814</a></span
+            >
+            <span
+              ><i class="fa fa-envelope"></i>
+              <a href="">chemercyiu@gmail.com</a></span
+            >
+            <span
+              ><i class="fa fa-map"></i>
+              <a href="">plot 1234 kampala road</a></span
+            >
+            <span
+              ><i class="fa fa-shield"></i>
+              <a href="">terms & conditions</a></span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- footer note -->
+      <section class="footer-note">
+        <i class="fa fa-copyright"></i> copy right all reserved - 2023 -
+        <a href="index.aspx">restautant.com</a>
+      </section>
+    </footer>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+    <script src="assets/slick/slick.js"></script>
+
+    <script>
+      $(".carousel-container").slick({
+        autoplay: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 350,
+      });
+    </script>
+
+    <script>
+      $(".slick-prev").html("");
+      $(".slick-prev").html('<i class="fa fa-angle-left"></i>');
+      $(".slick-next").html('<i class="fa fa-angle-right"></i>');
+      /* alert(); */
+    </script>
+
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>
